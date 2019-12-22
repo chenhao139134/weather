@@ -40,7 +40,7 @@ public class ApiAction {
         return list;
     }
 
-    /*@RequestMapping(name = "/weather")
+    @RequestMapping(name = "/weather")
     @ResponseBody
     public String weather(Integer cityid){
         String str = "";
@@ -52,5 +52,5 @@ public class ApiAction {
             e.printStackTrace();
         }
         return str;
-    }*/
+    }
 }
